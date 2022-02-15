@@ -65,3 +65,17 @@ npm run deploy
 ```
 npm run svgSprive
 ```
+---
+Настройки VSCode для изображений
+-открыть VSCode
+-настройки
+-палитра команд
+-вводим >Open Settings (JSON)
+-в файле прописываем строчки
+```
+ "path-autocomplete.pathMappings": {
+        "@img": "${folder}/src/img",
+        "@scss": "${folder}/src/scss",
+        "@js": "${folder}/src/js",
+    }
+```
