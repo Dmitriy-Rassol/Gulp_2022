@@ -9,12 +9,12 @@ const srcFolder = './src';
 
 export const path = {
     build: {
-        js: `${buildFolder}/js/`,
-        css: `${buildFolder}/css/`,
-        html: `${buildFolder}/`,
-        images: `${buildFolder}/img/`,
-        fonts: `${buildFolder}/fonts/`,
-        files: `${buildFolder}/files/`,
+        js: `${rootFolder}/js/`,
+        css: `${rootFolder}/css/`,
+        html: `${rootFolder}/`,
+        images: `${rootFolder}/img/`,
+        fonts: `${rootFolder}/fonts/`,
+        files: `${rootFolder}/files/`,
     },
     src: {
         js: `${srcFolder}/js/app.js`,
@@ -32,7 +32,7 @@ export const path = {
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,svg,ico,webp}`, 
         files: `${srcFolder}/files/**/*.*`,
     },
-    clean: buildFolder,
+    clean: rootFolder,
     buildFolder: buildFolder,
     srcFolder: srcFolder,
     rootFolder: rootFolder,

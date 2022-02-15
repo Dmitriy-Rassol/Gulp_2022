@@ -1,10 +1,2 @@
 @import 'fonts';
-
-body {
-    background-color: #000;
-    span {
-        color:red;
-    }
-
-    background: url("@img/avatar.jpg") 0 0 no-repeat;
-}
+@import 'reset';
